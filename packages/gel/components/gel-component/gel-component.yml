@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gel-component
+  description: GEL Component that does stuff
+spec:
+  type: service
+  lifecycle: experimental
+  owner: web-presentation-layer
+  system: web-core-services
