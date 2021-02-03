@@ -18,15 +18,15 @@ spec:
   # what does this template create
   type: component
   # if the template is not in the current directory where this definition is kept then specify
-  path: './component_id'
+  path: './component'
   # the schema for the form which is displayed in the frontend.
   # should follow JSON schema for forms: https://jsonforms.io/
   schema:
     required:
-      - component_id
+      - component_name
       - description
     properties:
-      component_id:
+      component_name:
         title: Component Name
         type: string
         description: Unique name of the component
