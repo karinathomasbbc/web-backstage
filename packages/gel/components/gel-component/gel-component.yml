@@ -4,7 +4,7 @@ metadata:
   name: gel-component
   description: GEL Component that does stuff
   annotations:
-    backstage.io/techdocs-ref: value
+    backstage.io/techdocs-ref: README.md
 spec:
   type: service
   lifecycle: experimental
