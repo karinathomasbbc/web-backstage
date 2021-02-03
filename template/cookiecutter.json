@@ -1,7 +1,7 @@
 {
     "name": "Create GEL Component",
     "templatePath": "gel_component_id",
-    "outputPath": "../packages/gel/components",
+    "outputPath": "packages/gel/components",
     "fields": [
         {
             "templateVariable": "COMPONENT_TYPE",
