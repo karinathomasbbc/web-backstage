@@ -1,7 +1,7 @@
 {
     "name": "Create GEL Component",
-    "templatePath": "gel_component_id",
-    "outputPath": "../packages/gel/components",
+    "templatePath": "component_id",
+    "outputPath": "packages/gel/components",
     "fields": [
         {
             "templateVariable": "COMPONENT_TYPE",
@@ -11,7 +11,7 @@
             ]
         },
         {
-            "templateVariable": "COMPONENT_NAME",
+            "templateVariable": "component_id",
             "question": "Component Name (e.g. gel-component):",
             "errorMessage": "Component Name must be in kebab case and can only include letters"
         },
